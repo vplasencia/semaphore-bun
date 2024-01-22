@@ -1,15 +1,43 @@
-# semaphore-bun
+# Semaphore with Bun
 
-To install dependencies:
+This is an example of project using [Semaphore](https://semaphore.pse.dev/) with Bun.
+
+This project was created using `bun init` in bun v1.0.25. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+
+## Run Locally
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/vplasencia/semaphore-bun.git
+```
+
+### Install dependencies
 
 ```bash
 bun install
 ```
 
-To run:
+### Download the Semaphore snark artifacts
 
 ```bash
-bun run index.ts
+bun download:snark-artifacts
 ```
 
-This project was created using `bun init` in bun v1.0.25. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+### Run the identities file
+
+```bash
+bun identities
+```
+
+### Run the groups file
+
+```bash
+bun groups
+```
+
+### Run the proofs file
+
+```bash
+bun proofs
+```
