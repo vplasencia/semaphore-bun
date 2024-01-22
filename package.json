@@ -2,10 +2,23 @@
   "name": "semaphore-bun",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "identities": "bun src/identities.ts",
+    "groups": "bun src/groups.ts",
+    "proofs": "bun src/proofs.ts",
+    "download:snark-artifacts": "rm -rf snark-artifacts && bun scripts/download-snark-artifacts.ts 16"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/download": "^8.0.5",
+    "download": "^8.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@semaphore-protocol/group": "^3.15.2",
+    "@semaphore-protocol/identity": "^3.15.2",
+    "@semaphore-protocol/proof": "^3.15.2"
   }
 }
