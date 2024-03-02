@@ -1,0 +1,21 @@
+{
+  "name": "semaphorev4",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "identities": "bun src/identities.ts",
+    "groups": "bun src/groups.ts",
+    "proofs": "bun src/proofs.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@semaphore-protocol/group": "^4.0.0-beta.1",
+    "@semaphore-protocol/identity": "^4.0.0-beta.1",
+    "@semaphore-protocol/proof": "^4.0.0-beta.1"
+  }
+}
