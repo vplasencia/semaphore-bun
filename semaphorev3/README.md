@@ -1,16 +1,10 @@
-# Semaphore with Bun
+# Semaphore v3 with Bun
 
-This is an example of project using [Semaphore](https://semaphore.pse.dev/) with Bun.
+This is an example of project using [Semaphore v3](https://docs.semaphore.pse.dev/V3) with Bun.
 
 This project was created using `bun init` in bun v1.0.25. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
 
 ## Run Locally
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/vplasencia/semaphore-bun.git
-```
 
 ### Install dependencies
 
