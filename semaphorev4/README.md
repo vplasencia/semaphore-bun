@@ -1,4 +1,4 @@
-# Semaphore with Bun
+# Semaphore v4 with Bun
 
 This is an example of project using [Semaphore v4](https://docs.semaphore.pse.dev/) with Bun.
 
